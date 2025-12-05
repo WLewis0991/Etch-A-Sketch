@@ -17,8 +17,9 @@ body {
     height: 670px;
     width: 600px;
     background-color: #bc1a12;
+    border: 3px solid #080808;
     border-radius: 20px;
-    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.2);  
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);  
 
     
 }
@@ -32,7 +33,7 @@ button {
     height: 40px;
     width: 100px;
     border-radius: 40px;
-    border: none;
+    border: 2px solid #080808;
     background-color: #d3d3d3;
     font-size: 1em;
     cursor: pointer;
@@ -46,7 +47,7 @@ button:hover {
 #etchContainer {
     display: flex;
     flex-wrap: wrap;
-    border: 5px solid #d3d3d3;
+    border: 3px solid #000000;
     border-radius: 10px;
     background-color: white;
     height: 400px;
